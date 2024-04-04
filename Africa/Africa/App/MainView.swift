@@ -19,7 +19,17 @@ struct MainView: View {
             VideoListView()
                 .tabItem {
                     Image(systemName: "play.rectangle")
-                    Text("Video")
+                    Text("Watch")
+                }
+            MapView()
+                .tabItem {
+                    Image(systemName: "map")
+                    Text("Location")
+                }
+            GalleryView()
+                .tabItem {
+                    Image(systemName: "photo")
+                    Text("Gallery")
                 }
         }
     }
