@@ -59,6 +59,12 @@ struct AnimalDetailView: View {
                 
                 Group {
                     HeadingView(headingImage: "map", headingText: "National Parks")
+                    InsetMapView()
+                }.padding(.horizontal)
+                
+                Group {
+                    HeadingView(headingImage: "book.vertical", headingText: "Learn More")
+                    ExternalWebView(animal: animal)
                 }.padding(.horizontal)
                 
             }
