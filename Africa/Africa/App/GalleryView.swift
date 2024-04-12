@@ -10,6 +10,7 @@ import SwiftUI
 struct GalleryView: View {
     @State private var selectedAnimal: String = "lion"
     let animals: [Animal] = Bundle.main.decode("animals.json")
+    let haptics = UIImpactFeedbackGenerator(style: .medium)
 //    let gridLayout: [GridItem] = [
 //        GridItem(.flexible()),
 //        GridItem(.flexible()),
@@ -51,9 +52,12 @@ struct GalleryView: View {
                             .overlay(Circle().stroke(Color.white, lineWidth: 1))
                             .onTapGesture {
                                 selectedAnimal = item.image
+                                haptics.impactOccurred()
                             }
                     }
-                }).onAppear(perform: {
+                })
+                .animation(.easeIn)
+                .onAppear(perform: {
                     gridSwitch()
                 })
             }
