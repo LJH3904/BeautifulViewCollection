@@ -28,6 +28,8 @@
 		367E9EEC2BCD69A400628B13 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E9EEB2BCD69A400628B13 /* AnimalGridItemView.swift */; };
 		367E9EF22BCD7C6E00628B13 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367E9EF12BCD7C6E00628B13 /* Stickers.xcassets */; };
 		367E9EF62BCD7C6E00628B13 /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 367E9EEF2BCD7C6D00628B13 /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		367E9EFC2BCD7EF100628B13 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E9EFB2BCD7EF100628B13 /* CreditsView.swift */; };
+		367E9EFF2BCD802300628B13 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E9EFE2BCD802300628B13 /* CenterModifier.swift */; };
 		368E529A2BC7D9F90008E895 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E52992BC7D9F90008E895 /* AnimalDetailView.swift */; };
 		368E529C2BC7DBFE0008E895 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E529B2BC7DBFE0008E895 /* HeadingView.swift */; };
 		368E529E2BC7E1450008E895 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E529D2BC7E1450008E895 /* InsetGalleryView.swift */; };
@@ -99,6 +101,8 @@
 		367E9EEF2BCD7C6D00628B13 /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		367E9EF12BCD7C6E00628B13 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		367E9EF32BCD7C6E00628B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367E9EFB2BCD7EF100628B13 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		367E9EFE2BCD802300628B13 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 		368E52992BC7D9F90008E895 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		368E529B2BC7DBFE0008E895 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		368E529D2BC7E1450008E895 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 				3662DBB42BC96D76002AB722 /* MapAnnotationView.swift */,
 				3662DBB62BC9713E002AB722 /* MotionAnimationView.swift */,
 				367E9EEB2BCD69A400628B13 /* AnimalGridItemView.swift */,
+				367E9EFB2BCD7EF100628B13 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 		366926F02BBC20B3005B8C68 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				367E9EFD2BCD800C00628B13 /* Modifier */,
 				36278C392BC83FA90049A8ED /* Helper */,
 				36AE0D3E2BBE67F400CD2D37 /* App */,
 				3632B4C22BBEC19000F39280 /* View */,
@@ -231,6 +237,14 @@
 				367E9EF32BCD7C6E00628B13 /* Info.plist */,
 			);
 			path = Stickers;
+			sourceTree = "<group>";
+		};
+		367E9EFD2BCD800C00628B13 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				367E9EFE2BCD802300628B13 /* CenterModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 		36AE0D212BBE5D0A00CD2D37 /* Video */ = {
@@ -406,8 +420,10 @@
 				367E9EEC2BCD69A400628B13 /* AnimalGridItemView.swift in Sources */,
 				3632B4CA2BBEC4FC00F39280 /* CodableBundleExtension.swift in Sources */,
 				36278C362BC8357B0049A8ED /* VideoListItemView.swift in Sources */,
+				367E9EFC2BCD7EF100628B13 /* CreditsView.swift in Sources */,
 				36278C322BC82D370049A8ED /* ExternalWebView.swift in Sources */,
 				3662DBB72BC9713E002AB722 /* MotionAnimationView.swift in Sources */,
+				367E9EFF2BCD802300628B13 /* CenterModifier.swift in Sources */,
 				368E529C2BC7DBFE0008E895 /* HeadingView.swift in Sources */,
 				36278C382BC83BE30049A8ED /* VideoPlayerView.swift in Sources */,
 			);
