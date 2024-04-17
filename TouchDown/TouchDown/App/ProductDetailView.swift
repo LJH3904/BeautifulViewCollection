@@ -22,6 +22,19 @@ struct ProductDetailView: View {
             
             TopPartDetailView()
                 .padding(.horizontal)
+            
+            VStack(alignment: .center, spacing: 0) {
+                ScrollView(.vertical, showsIndicators: false) {
+                    Text(tempProducts.description)
+                        .font(.system(.body, design: .rounded))
+                        .foregroundStyle(.gray)
+                        .multilineTextAlignment(.leading)
+                    
+                }
+            }// vstack
+            .padding(.horizontal)
+            .background(Color.white)
+            
             Spacer()
         })
         .ignoresSafeArea(.all, edges: .all)
