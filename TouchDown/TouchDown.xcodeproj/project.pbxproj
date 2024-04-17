@@ -24,6 +24,9 @@
 		3614453E2BD0222100C173EB /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614453D2BD0222100C173EB /* FeaturedItemView.swift */; };
 		361445402BD022E800C173EB /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614453F2BD022E800C173EB /* FeaturedTabView.swift */; };
 		361445422BD0363A00C173EB /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445412BD0363A00C173EB /* CategoryModel.swift */; };
+		361445442BD04F2300C173EB /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445432BD04F2300C173EB /* CategoryItemView.swift */; };
+		361445462BD060D700C173EB /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445452BD060D700C173EB /* CategoryGridView.swift */; };
+		361445482BD061C600C173EB /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445472BD061C600C173EB /* SectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		3614453D2BD0222100C173EB /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		3614453F2BD022E800C173EB /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		361445412BD0363A00C173EB /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		361445432BD04F2300C173EB /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		361445452BD060D700C173EB /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		361445472BD061C600C173EB /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,9 @@
 				361445372BD01BDB00C173EB /* LogoView.swift */,
 				3614453D2BD0222100C173EB /* FeaturedItemView.swift */,
 				3614453F2BD022E800C173EB /* FeaturedTabView.swift */,
+				361445432BD04F2300C173EB /* CategoryItemView.swift */,
+				361445452BD060D700C173EB /* CategoryGridView.swift */,
+				361445472BD061C600C173EB /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -253,8 +262,11 @@
 				3614453E2BD0222100C173EB /* FeaturedItemView.swift in Sources */,
 				361445362BD01B1900C173EB /* NavigationBarVIew.swift in Sources */,
 				361445132BD00CDD00C173EB /* TouchDownApp.swift in Sources */,
+				361445462BD060D700C173EB /* CategoryGridView.swift in Sources */,
 				361445422BD0363A00C173EB /* CategoryModel.swift in Sources */,
 				361445322BD00EFD00C173EB /* Constant.swift in Sources */,
+				361445482BD061C600C173EB /* SectionView.swift in Sources */,
+				361445442BD04F2300C173EB /* CategoryItemView.swift in Sources */,
 				361445402BD022E800C173EB /* FeaturedTabView.swift in Sources */,
 				3614453A2BD0209E00C173EB /* PlayerModel.swift in Sources */,
 			);
