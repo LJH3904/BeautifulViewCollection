@@ -23,6 +23,7 @@
 		3614453C2BD020D400C173EB /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614453B2BD020D400C173EB /* CodableBundleExtension.swift */; };
 		3614453E2BD0222100C173EB /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614453D2BD0222100C173EB /* FeaturedItemView.swift */; };
 		361445402BD022E800C173EB /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614453F2BD022E800C173EB /* FeaturedTabView.swift */; };
+		361445422BD0363A00C173EB /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445412BD0363A00C173EB /* CategoryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		3614453B2BD020D400C173EB /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		3614453D2BD0222100C173EB /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		3614453F2BD022E800C173EB /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		361445412BD0363A00C173EB /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				361445392BD0209E00C173EB /* PlayerModel.swift */,
+				361445412BD0363A00C173EB /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				3614453E2BD0222100C173EB /* FeaturedItemView.swift in Sources */,
 				361445362BD01B1900C173EB /* NavigationBarVIew.swift in Sources */,
 				361445132BD00CDD00C173EB /* TouchDownApp.swift in Sources */,
+				361445422BD0363A00C173EB /* CategoryModel.swift in Sources */,
 				361445322BD00EFD00C173EB /* Constant.swift in Sources */,
 				361445402BD022E800C173EB /* FeaturedTabView.swift in Sources */,
 				3614453A2BD0209E00C173EB /* PlayerModel.swift in Sources */,
