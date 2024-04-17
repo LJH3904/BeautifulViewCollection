@@ -16,6 +16,9 @@
 		361445262BD00D8B00C173EB /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 361445222BD00D8B00C173EB /* category.json */; };
 		361445272BD00D8B00C173EB /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 361445232BD00D8B00C173EB /* player.json */; };
 		361445322BD00EFD00C173EB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445312BD00EFD00C173EB /* Constant.swift */; };
+		361445342BD00FDD00C173EB /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445332BD00FDD00C173EB /* FooterView.swift */; };
+		361445362BD01B1900C173EB /* NavigationBarVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445352BD01B1900C173EB /* NavigationBarVIew.swift */; };
+		361445382BD01BDB00C173EB /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445372BD01BDB00C173EB /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		361445232BD00D8B00C173EB /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		361445292BD00DE100C173EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		361445312BD00EFD00C173EB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		361445332BD00FDD00C173EB /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		361445352BD01B1900C173EB /* NavigationBarVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarVIew.swift; sourceTree = "<group>"; };
+		361445372BD01BDB00C173EB /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,9 @@
 		3614452D2BD00E9800C173EB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				361445332BD00FDD00C173EB /* FooterView.swift */,
+				361445352BD01B1900C173EB /* NavigationBarVIew.swift */,
+				361445372BD01BDB00C173EB /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -223,6 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				361445152BD00CDD00C173EB /* ContentView.swift in Sources */,
+				361445382BD01BDB00C173EB /* LogoView.swift in Sources */,
+				361445342BD00FDD00C173EB /* FooterView.swift in Sources */,
+				361445362BD01B1900C173EB /* NavigationBarVIew.swift in Sources */,
 				361445132BD00CDD00C173EB /* TouchDownApp.swift in Sources */,
 				361445322BD00EFD00C173EB /* Constant.swift in Sources */,
 			);
