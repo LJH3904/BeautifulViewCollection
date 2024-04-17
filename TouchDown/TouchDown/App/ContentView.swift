@@ -8,46 +8,61 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var shop: Shop
    
     var body: some View {
         ZStack {
-            VStack(spacing: 10) {
-                NavigationBarVIew()
-                    .padding(.horizontal, 15)
-                    .padding(.bottom)
-                    .modifier(PaddingModifier())
-
-                    .background(Color.white)
-                    .shadow(color: .black.opacity(0.05), radius: 5, x: 0, y: 5)
-                
-                ScrollView(.vertical, showsIndicators: false) {
-                    VStack(spacing: 0) {
-                        
-                        FeaturedTabView()
-                            .padding(.vertical, 20)
+            if shop.shopwingProduct == false && shop.selectedProduct == nil {
+                VStack(spacing: 10) {
+                    NavigationBarVIew()
+                        .padding(.horizontal, 15)
+                        .padding(.bottom)
+                        .modifier(PaddingModifier())
+                    
+                        .background(Color.white)
+                        .shadow(color: .black.opacity(0.05), radius: 5, x: 0, y: 5)
+                    
+                    ScrollView(.vertical, showsIndicators: false) {
+                        VStack(spacing: 0) {
                             
-                        CategoryGridView()
-                        TitleView(title: "Helmets")
-                        
-                        LazyVGrid(columns: gridLayout, spacing: 15, content: {
+                            FeaturedTabView()
+                                .padding(.vertical, 20)
                             
-                            ForEach(products) { product in
+                            CategoryGridView()
+                            TitleView(title: "Helmets")
+                            
+                            LazyVGrid(columns: gridLayout, spacing: 15, content: {
+                                
+                                ForEach(products) { product in
                                     ProductItemView(product: product)
-                            }
-                        }) // Grid
-                        .padding(15)
-                        
-                        TitleView(title: "Brands")
-
-                        BrandGridView()
-                        
-                        FooterView()
-                            .padding(.horizontal)
-                    }
-                }// scroll
+                                        .onTapGesture {
+                                            feedback.impactOccurred()
+                                            
+                                            withAnimation(.easeOut) {
+                                                shop.selectedProduct = product
+                                                shop.shopwingProduct = true
+                                            }
+                                        }
+                                }
+                            }) // Grid
+                            .padding(15)
+                            
+                            TitleView(title: "Brands")
+                            
+                            BrandGridView()
+                            
+                            FooterView()
+                                .padding(.horizontal)
+                        }
+                    }// scroll
+                    
+                }
+                .background(colorBackground.ignoresSafeArea(.all, edges: .all))
+            } else {
+                ProductDetailView()
                 
             }
-            .background(colorBackground.ignoresSafeArea(.all, edges: .all))
         } // zstack
         .ignoresSafeArea(.all, edges: .top)
     }

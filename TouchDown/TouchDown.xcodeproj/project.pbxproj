@@ -42,6 +42,7 @@
 		361445652BD0727000C173EB /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445642BD0727000C173EB /* RatingsSizesDetailView.swift */; };
 		361445672BD074A800C173EB /* QuantityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445662BD074A800C173EB /* QuantityFavouriteDetailView.swift */; };
 		361445692BD075CB00C173EB /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361445682BD075CB00C173EB /* AddToCartDetailView.swift */; };
+		3614456B2BD076EC00C173EB /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614456A2BD076EC00C173EB /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		361445642BD0727000C173EB /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
 		361445662BD074A800C173EB /* QuantityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavouriteDetailView.swift; sourceTree = "<group>"; };
 		361445682BD075CB00C173EB /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		3614456A2BD076EC00C173EB /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 			children = (
 				361445312BD00EFD00C173EB /* Constant.swift */,
 				361445622BD070FB00C173EB /* CustomShape.swift */,
+				3614456A2BD076EC00C173EB /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				3614453C2BD020D400C173EB /* CodableBundleExtension.swift in Sources */,
 				3614455A2BD0698200C173EB /* HeaderDetailView.swift in Sources */,
 				361445152BD00CDD00C173EB /* ContentView.swift in Sources */,
+				3614456B2BD076EC00C173EB /* Shop.swift in Sources */,
 				361445382BD01BDB00C173EB /* LogoView.swift in Sources */,
 				361445342BD00FDD00C173EB /* FooterView.swift in Sources */,
 				3614453E2BD0222100C173EB /* FeaturedItemView.swift in Sources */,
