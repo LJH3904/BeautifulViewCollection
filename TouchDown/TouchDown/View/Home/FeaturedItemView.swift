@@ -17,7 +17,3 @@ struct FeaturedItemView: View {
             .cornerRadius(12)
     }
 }
-
-#Preview {
-    FeaturedItemView(player: temPlayer)
-}
