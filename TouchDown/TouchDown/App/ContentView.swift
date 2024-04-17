@@ -15,10 +15,7 @@ struct ContentView: View {
                 NavigationBarVIew()
                     .padding(.horizontal, 15)
                     .padding(.bottom)
-                    .padding(.top, UIApplication.shared.connectedScenes
-                                        .compactMap { $0 as? UIWindowScene }
-                                        .first?.windows
-                                        .first?.safeAreaInsets.top ?? 0)
+                    .modifier(PaddingModifier())
 
                     .background(Color.white)
                     .shadow(color: .black.opacity(0.05), radius: 5, x: 0, y: 5)

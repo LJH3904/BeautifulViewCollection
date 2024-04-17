@@ -12,7 +12,14 @@ struct ProductDetailView: View {
         
         
         VStack(alignment: .leading, spacing: 5, content: {
-            Text(tempProducts.name)
+            
+            NavigationDetailView()
+                .padding(.horizontal)
+                .modifier(PaddingModifier())
+            
+            HeaderDetailView()
+                .padding(.horizontal)
+            
             Spacer()
         })
         .ignoresSafeArea(.all, edges: .all)
